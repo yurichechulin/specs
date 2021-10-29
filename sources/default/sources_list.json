@@ -140,6 +140,11 @@
         "enabled": true
     },
     {
+        "name": "a3.fines.smev3",
+        "description": "Данные о штрафах, оформленных на ТС (СМЭВ 3)",
+        "enabled": true
+    },
+    {
         "name": "dtp.registry",
         "description": "Данные о ДТП зарегистрированных в базе ГИБДД (история ДТП)",
         "enabled": true

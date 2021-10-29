@@ -4363,7 +4363,8 @@
                                             "gibdd.fines",
                                             "fines.alt",
                                             "fines.madiampp",
-                                            "fines.base.ext"
+                                            "fines.base.ext",
+                                            "a3.fines.smev3"
                                         ]
                                     },
                                     "accident": {
@@ -4404,7 +4405,8 @@
                                             "gibdd.fines",
                                             "fines.alt",
                                             "fines.madiampp",
-                                            "fines.base.ext"
+                                            "fines.base.ext",
+                                            "a3.fines.smev3"
                                         ]
                                     },
                                     "description": {
@@ -4421,7 +4423,8 @@
                                             "gibdd.fines",
                                             "fines.alt",
                                             "fines.madiampp",
-                                            "fines.base.ext"
+                                            "fines.base.ext",
+                                            "a3.fines.smev3"
                                         ]
                                     }
                                 }
@@ -4438,7 +4441,8 @@
                                 "fillable_by": [
                                     "fines.base",
                                     "gibdd.fines",
-                                    "fines.base.ext"
+                                    "fines.base.ext",
+                                    "a3.fines.smev3"
                                 ]
                             },
                             "description": {
@@ -4475,7 +4479,28 @@
                                             "fines.base",
                                             "gibdd.fines",
                                             "fines.alt",
-                                            "fines.base.ext"
+                                            "fines.base.ext",
+                                            "a3.fines.smev3"
+                                        ]
+                                    },
+                                    "type": {
+                                        "description": "Тип начисления",
+                                        "type": [
+                                            "string",
+                                            "null"
+                                        ],
+                                        "enum": [
+                                            "GIBDD",
+                                            "NALOG",
+                                            "IP_FSSP",
+                                            "OTHER_GISGMP",
+                                            null
+                                        ],
+                                        "examples": [
+                                            "IP_FSSP"
+                                        ],
+                                        "fillable_by": [
+                                            "a3.fines.smev3"
                                         ]
                                     }
                                 }
@@ -4514,7 +4539,8 @@
                                             "gibdd.fines",
                                             "fines.alt",
                                             "fines.madiampp",
-                                            "fines.base.ext"
+                                            "fines.base.ext",
+                                            "a3.fines.smev3"
                                         ]
                                     }
                                 }
@@ -4538,7 +4564,8 @@
                                             "gibdd.fines",
                                             "fines.alt",
                                             "fines.madiampp",
-                                            "fines.base.ext"
+                                            "fines.base.ext",
+                                            "a3.fines.smev3"
                                         ]
                                     },
                                     "date": {
@@ -4563,7 +4590,8 @@
                                                     "gibdd.fines",
                                                     "fines.alt",
                                                     "fines.madiampp",
-                                                    "fines.base.ext"
+                                                    "fines.base.ext",
+                                                    "a3.fines.smev3"
                                                 ]
                                             }
                                         }
@@ -4582,7 +4610,8 @@
                                 "fillable_by": [
                                     "fines.base",
                                     "gibdd.fines",
-                                    "fines.base.ext"
+                                    "fines.base.ext",
+                                    "a3.fines.smev3"
                                 ]
                             },
                             "is_paid": {
@@ -4599,7 +4628,8 @@
                                     "gibdd.fines",
                                     "fines.alt",
                                     "fines.madiampp",
-                                    "fines.base.ext"
+                                    "fines.base.ext",
+                                    "a3.fines.smev3"
                                 ]
                             },
                             "wire": {
@@ -4622,7 +4652,8 @@
                                                 "fillable_by": [
                                                     "fines.base",
                                                     "fines.alt",
-                                                    "fines.base.ext"
+                                                    "fines.base.ext",
+                                                    "a3.fines.smev3"
                                                 ]
                                             },
                                             "tin": {
@@ -4637,7 +4668,8 @@
                                                 "fillable_by": [
                                                     "fines.base",
                                                     "fines.alt",
-                                                    "fines.base.ext"
+                                                    "fines.base.ext",
+                                                    "a3.fines.smev3"
                                                 ]
                                             },
                                             "kpp": {
@@ -4656,7 +4688,8 @@
                                                 "fillable_by": [
                                                     "fines.base",
                                                     "fines.alt",
-                                                    "fines.base.ext"
+                                                    "fines.base.ext",
+                                                    "a3.fines.smev3"
                                                 ]
                                             }
                                         }
@@ -4681,7 +4714,8 @@
                                                         "fillable_by": [
                                                             "fines.base",
                                                             "fines.alt",
-                                                            "fines.base.ext"
+                                                            "fines.base.ext",
+                                                            "a3.fines.smev3"
                                                         ]
                                                     }
                                                 }
@@ -4698,7 +4732,8 @@
                                                 "fillable_by": [
                                                     "fines.base",
                                                     "fines.alt",
-                                                    "fines.base.ext"
+                                                    "fines.base.ext",
+                                                    "a3.fines.smev3"
                                                 ]
                                             },
                                             "bik": {
@@ -4713,7 +4748,8 @@
                                                 "fillable_by": [
                                                     "fines.base",
                                                     "fines.alt",
-                                                    "fines.base.ext"
+                                                    "fines.base.ext",
+                                                    "a3.fines.smev3"
                                                 ]
                                             }
                                         }
@@ -4734,7 +4770,8 @@
                                                 "fillable_by": [
                                                     "fines.base",
                                                     "fines.alt",
-                                                    "fines.base.ext"
+                                                    "fines.base.ext",
+                                                    "a3.fines.smev3"
                                                 ]
                                             }
                                         }
@@ -4752,7 +4789,8 @@
                                             "fines.base",
                                             "gibdd.fines",
                                             "fines.alt",
-                                            "fines.base.ext"
+                                            "fines.base.ext",
+                                            "a3.fines.smev3"
                                         ]
                                     },
                                     "okato": {
@@ -4767,7 +4805,8 @@
                                         "fillable_by": [
                                             "fines.base",
                                             "fines.alt",
-                                            "fines.base.ext"
+                                            "fines.base.ext",
+                                            "a3.fines.smev3"
                                         ]
                                     }
                                 }
@@ -4788,7 +4827,8 @@
                                         "fillable_by": [
                                             "fines.base",
                                             "fines.madiampp",
-                                            "fines.base.ext"
+                                            "fines.base.ext",
+                                            "a3.fines.smev3"
                                         ]
                                     }
                                 }
@@ -4824,8 +4864,41 @@
                                             false
                                         ],
                                         "fillable_by": [
-                                            "gibdd.fines"
+                                            "gibdd.fines",
+                                            "a3.fines.smev3"
                                         ]
+                                    },
+                                    "ienforcement_proceeding": {
+                                        "type": "object",
+                                        "additionalProperties": false,
+                                        "properties": {
+                                            "number": {
+                                                "description": "Номер исполнительного производства вместе с датой его создания",
+                                                "type": [
+                                                    "string",
+                                                    "null"
+                                                ],
+                                                "examples": [
+                                                    "446956\/21\/77058-ИП от 2021-02-10"
+                                                ],
+                                                "fillable_by": [
+                                                    "a3.fines.smev3"
+                                                ]
+                                            },
+                                            "contact": {
+                                                "description": "Контакты судебного пристава",
+                                                "type": [
+                                                    "string",
+                                                    "null"
+                                                ],
+                                                "examples": [
+                                                    "ОМАРОВА М. М., тел: +7(499)558-19-36//МОСП по ВАШ №7 (код отдела: 77058)"
+                                                ],
+                                                "fillable_by": [
+                                                    "a3.fines.smev3"
+                                                ]
+                                            }
+                                        }
                                     }
                                 }
                             },
@@ -4868,6 +4941,57 @@
                                                 "gibdd.fines",
                                                 "fines.base.ext"
                                             ]
+                                        }
+                                    }
+                                }
+                            },
+                            "payer": {
+                                "type": "object",
+                                "additionalProperties": false,
+                                "properties": {
+                                    "name": {
+                                        "description": "Наименование плательщика",
+                                        "type": [
+                                            "string",
+                                            "null"
+                                        ],
+                                        "examples": [
+                                            "КУЛУМБЕГОВ МАРАТ АХСАРОВИЧ"
+                                        ],
+                                        "fillable_by": [
+                                            "a3.fines.smev3"
+                                        ]
+                                    },
+                                    "identifier": {
+                                        "type": "object",
+                                        "additionalProperties": false,
+                                        "properties": {
+                                            "type": {
+                                                "description": "Тип документа",
+                                                "type": [
+                                                    "string",
+                                                    "null"
+                                                ],
+                                                "examples": [
+                                                    "sts"
+                                                ],
+                                                "fillable_by": [
+                                                    "a3.fines.smev3"
+                                                ]
+                                            },
+                                            "number": {
+                                                "description": "Номер документа",
+                                                "type": [
+                                                    "string",
+                                                    "null"
+                                                ],
+                                                "examples": [
+                                                    "1541797789"
+                                                ],
+                                                "fillable_by": [
+                                                    "a3.fines.smev3"
+                                                ]
+                                            }
                                         }
                                     }
                                 }
