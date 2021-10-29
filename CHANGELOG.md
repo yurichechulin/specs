@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog][keepachangelog] and this project adheres to [Semantic Versioning][semver].
 
+## Unreleased
+
+### Added
+
+- Source `a3.fines.smev3`
+- Fields with path `fines.items[].vendor.type`
+- Fields with path `fines.items[].payer.name`
+- Fields with path `fines.items[].fssp.ienforcement_proceeding.number`
+- Fields with path `fines.items[].fssp.ienforcement_proceeding.contact`
+- Fields with path `fines.items[].payer.identifier.type	`
+- Fields with path `fines.items[].payer.identifier.number`
+
 ## v3.94.1
 
 ### Fixed
