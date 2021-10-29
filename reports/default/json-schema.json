@@ -4851,7 +4851,8 @@
                                             "2018-05-23 00:00:00"
                                         ],
                                         "fillable_by": [
-                                            "gibdd.fines"
+                                            "gibdd.fines",
+                                            "a3.fines.smev3"
                                         ]
                                     },
                                     "is_proceed": {
